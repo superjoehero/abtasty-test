@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Ematic Solutions - Demo Website</title>
+
     <!-- Google Tag Manager THES account -->
     <script>
         (function(w, d, s, l, i) {
@@ -68,6 +69,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/onclick-test.js"></script>
 </head>
 
 <body id="page-top">
@@ -221,7 +223,7 @@
     <section class="content-section bg-primary text-white">
         <div class="container px-4 px-lg-5 text-center">
             <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-            <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
+            <a class="btn btn-xl btn-light me-4" onclick="dataLayer.push({'event': 'Click Me'});">Click Me!</a>
             <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
         </div>
     </section>
