@@ -10,3 +10,15 @@ function click_me() {
         }]
     })
 }
+
+function sub_push() {
+    dataLayer.push({
+        'event': 'sub_push'
+    })
+}
+
+function unsub_push() {
+    dataLayer.push({
+        'event': 'unsub_push'
+    })
+}
